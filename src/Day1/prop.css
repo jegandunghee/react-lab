@@ -1,0 +1,17 @@
+@charset 'uft-8';
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+.card{
+  width: 300px;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+@charset 'utf-8'; 
+.card{
+  width : 380px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  overflow: hidden;
+  /* background-color: pink; */
+  .over{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    font-size: 3.2rem;
+    font-weight: 900;
+    p{
+      text-align: center;
+      padding: 5rem 0;
+    }
+
+    &:hover{
+      backdrop-filter:blur(20px);
+      color: #fff;
+      border-radius: 2rem;
+    }
+  }
+}
+
+img{
+  width: 100%;
+  height: 350px;
+}
