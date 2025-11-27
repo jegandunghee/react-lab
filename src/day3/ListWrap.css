@@ -1,0 +1,22 @@
+.product{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  .product-card{
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #222;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.3s;
+
+    &:hover{
+      transform: scale(1.1);
+      color: #666666;
+    }
+
+    img{
+      width: 150px;
+    }
+  }
+}

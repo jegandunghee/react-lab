@@ -1,7 +1,10 @@
 import Card from "./Day2/Card";
 import State from "./Day2/State";
 import StateBase from "./Day2/StateBase";
+import Event from "./Day4/Event";
 import "./app.css";
+import ListWrap from "./day3/ListWrap";
+
 
 const App = () => {
   return (
@@ -12,9 +15,10 @@ const App = () => {
     // <Card file = "2" title = 'Day2'/>
     // <Card file = "3" title = 'Krew Day' />
     // </div>
-    <>
-      < State />
-    </>
+    <div className='app'>
+      {/* <Parent /> */}
+      <Event/>
+    </div>
   );
 };
 
