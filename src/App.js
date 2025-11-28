@@ -2,6 +2,8 @@ import Card from "./Day2/Card";
 import State from "./Day2/State";
 import StateBase from "./Day2/StateBase";
 import Event from "./Day4/Event";
+import Effect from "./Day5-2/Effect";
+import Style from "./Day5/Style";
 import "./app.css";
 import ListWrap from "./day3/ListWrap";
 
@@ -17,7 +19,10 @@ const App = () => {
     // </div>
     <div className='app'>
       {/* <Parent /> */}
-      <Event/>
+      {/* <ListWrap/> */}
+      {/* <Event/> */}
+      {/* <Style/> */}
+      <Effect/>
     </div>
   );
 };

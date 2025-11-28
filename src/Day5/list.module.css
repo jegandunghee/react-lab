@@ -1,0 +1,11 @@
+.card{
+  background-color: blue;
+  h2{
+    color: #fff;
+  }
+}
+
+.p{
+  font-size: 3rem;
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+// 색상 지정 
+$main_color : tomato;
+
+//style_scss.js 폴더 색상 지정 
+.style_scss{
+  h2{
+    color : $main_color;
+  }
+}
