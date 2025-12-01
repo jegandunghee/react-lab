@@ -6,6 +6,7 @@ import Effect from "./Day5-2/Effect";
 import Style from "./Day5/Style";
 import "./app.css";
 import ListWrap from "./day3/ListWrap";
+import Rest from "./Day6/Rest";
 
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
       {/* <ListWrap/> */}
       {/* <Event/> */}
       {/* <Style/> */}
-      <Effect/>
+      {/* <Effect/> */}
+      <Rest/>
     </div>
   );
 };
